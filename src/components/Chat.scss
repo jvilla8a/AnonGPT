@@ -1,0 +1,36 @@
+.chat {
+  background-color: rgba(52, 53, 65, 1);
+  height: 80vh;
+  max-height: 80vh;
+  overflow: auto;
+
+  .chat-question {
+    color: white;
+    text-align: initial;
+    width: 45vw;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+
+    div {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px black;
+    }
+  }
+}
+
+.input {
+  display: flex;
+  background-color: rgba(52, 53, 65, 1);
+  height: 20vh;
+  width: 100%;
+
+  form {
+    width: 45vw;
+    margin: auto;
+
+    input {
+      width: 100%;
+    }
+  }
+}
