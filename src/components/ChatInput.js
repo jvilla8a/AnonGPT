@@ -11,7 +11,9 @@ function ChatInput({ setMessage }) {
   return (
     <div className="input">
       <form onSubmit={handlerMessage}>
-        <input type="text" onChange={(e) => setText(e.target.value)} />
+        <div className="text-container">
+          <input type="text" onChange={(e) => setText(e.target.value)} />
+        </div>
       </form>
     </div>
   );

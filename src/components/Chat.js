@@ -8,6 +8,7 @@ function Chat({ message }) {
           <div key={index}>{message}</div>
         ))}
       </div>
+      <div className="bottom-limit"></div>
     </div>
   );
 }
